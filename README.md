@@ -9,7 +9,7 @@ Effortlessly generate fully functional websites with text and image uploads. Thi
 4. One-Click Deployment: Instantly deploys to Vercel with no manual setup.
 5. Pre-Processes Input: Converts input into valid JSON for structured processing.
 6. Smart Image Handling: AI infers image roles dynamically, with no manual resizing required. (Although this feature is not completely robust as of now.)
-7. Supports Various Website Types: Personal, landing pages, e-commerce, and more (It supports both multi page and single page websites)!
+7. Supports Various Website Types: Personal, landing pages, e-commerce, and more (It supports both multi page and single page websites and supports varying screen sizes)!
 
 
 ## How it works:
