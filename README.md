@@ -1,23 +1,30 @@
 # AI Website Generator
-Effortlessly generate fully functional websites with text and image uploads. This AI-powered system automates everything from generating website to deploying it on vercel.
+Effortlessly generate fully functional websites with text and image uploads. This AI-powered system automates everything from generating the website to deploying it on Vercel.
 
 
 ## Features:
-1. Gradio Interface: Enter a prompt and upload images (you can give prompts for eeach image u upload as well, if you upload multiple imgaes seperate each image prompt with a ',') with ease.
-2. AI-Powered Code Generation: Creates structured, SEO-optimized code dynamically.
+1. Gradio Interface: Enter a prompt and upload images (you can give prompts for each image u upload as well; if you upload multiple images, separate each image prompt with a ',') with ease.
+2. AI-Powered Code Generation: Uses the OpenAI 4o model to dynamically create structured, SEO-optimized code.
 3. Automated Validation: Ensures the generated code aligns with the prompt.
 4. One-Click Deployment: Instantly deploys to Vercel with no manual setup.
-5. Smart Image Handling: AI infers image roles dynamically, no manual resizing required. (Although this feature is not completely robust as of now).
-6. Supports Various Website Types: Personal, landing pages, e-commerce, and more (It supports both multi page and single page websites)!
+5. Pre-Processes Input: Converts input into valid JSON for structured processing.
+6. Smart Image Handling: AI infers image roles dynamically, with no manual resizing required. (Although this feature is not completely robust as of now.)
+7. Supports Various Website Types: Personal, landing pages, e-commerce, and more (It supports both multi page and single page websites)!
 
 
-## How it Works:
-1. Provide a prompt, enter your website domain name (optional), upload images you want in your website and prompt where you want them (optional).
-2. AI generates website code and validates it.'
-3. The website is automatically deployed to Vercel.
-4. Access your fully functional site instantly!
+## How it works:
+1. Provide a prompt, enter your website domain name (optional), upload images you want in your website, and prompt where you want them (optional).
+2. OpenAI 4o model preprocesses the input into valid JSON.
+3. This generated JSON is again fed into the 4o model to generate and validate the website code.
+4. The website is automatically deployed to Vercel.
+5. Access your fully functional site instantly!
 
-⏳ Full deployment from prompt takes approximately 3 minutes.
+⏳ Full deployment from the prompt takes approximately 3 minutes.
+
+## Live Demos
+Check out some AI-generated websites deployed using this project:
+1. [Beachy Clothes](beachy-clothes-jy4zz1auq-shreshth-kapais-projects.vercel.app) (Multipage website, the images were uploaded via image prompt, I know that the image sizing may be messed up. Still trying to improve it :/). 
+2.  [Personal Website](https://ai-website-1741030878-d36e8359.vercel.app/) (Single Page website, my image was uploaded via image prompt)
 
 ##  Ongoing Work & Improvements
 Looking for contributors to help with the following:
