@@ -23,8 +23,8 @@ Effortlessly generate fully functional websites with text and image uploads. Thi
 
 ## Live Demos
 Check out some AI-generated websites deployed using this project:
-1. [Beachy Clothes](beachy-clothes-jy4zz1auq-shreshth-kapais-projects.vercel.app) (Multipage website, the images were uploaded via image prompt, I know that the image sizing may be messed up. Still trying to improve it :/). 
-2.  [Personal Website](https://beachy-clothes--ten.vercel.app/) (Single Page website, my image was uploaded via image prompt)
+1. [Beachy Clothes](https://beachy-clothes--ten.vercel.app/) (Multipage website, the images were uploaded via image prompt, I know that the image sizing may be messed up. Still trying to improve it :/). 
+2. [Personal Website](https://ai-website-1741030878-d36e8359.vercel.app/) (Single Page website, my image was uploaded via image prompt)
 
 ##  Ongoing Work & Improvements
 Looking for contributors to help with the following:
